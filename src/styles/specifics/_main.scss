@@ -1,0 +1,120 @@
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: $tangerine;
+  padding: 40px;
+  margin-bottom: -20px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 30%;
+    padding-right: 40px;
+  }
+}
+
+.forecast-card {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  background-color: $american-blue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: $water;
+
+  &__date {
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  &__icon-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  &__icon {
+    height: 120px;
+  }
+
+  &__icon-decription {
+    text-align: center;
+  }
+
+  &__item {
+    display: block;
+    font-size: 1.2rem;
+
+    & + & {
+      margin-top: 10px;
+    }
+  }
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 70%;
+  margin: -10px;
+}
+
+.forecast-block {
+  display: flex;
+  flex: 0 1 25%;
+  height: 25%;
+  color: $water;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    flex: 1 1 auto;
+    margin: 10px;
+    background-color: $american-blue;
+    cursor: pointer;
+  }
+
+  &__icon-container {
+    height: 50px;
+  }
+
+  &__icon {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__date {
+    font-size: 1.4rem;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  &__temp {
+    padding-bottom: 10px;
+  }
+
+  &__content--active {
+    border: 3px solid $water;
+  }
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: $champagne;
+  color: $american-blue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  &__name {
+    font-size: 1rem;
+  }
+
+  &__btn {
+    padding: 0;
+    margin: auto 0;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-insert-at-body-end": "^2.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "load-google-maps-api": "^2.0.2",
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lodash.escape": "^4.0.1",
+    "lodash.unescape": "^4.0.1",
+    "normalize.css": "^8.0.1",
+    "query-string": "^7.0.1"
+  }
+}
