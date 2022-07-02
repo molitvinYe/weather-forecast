@@ -2,4 +2,5 @@
 -BEM metogology </br>
 -SCSS predprocesor </br>
 -JavaScript Classes </br>
+-fetch API </br>
 -Webpack </br>
